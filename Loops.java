@@ -7,17 +7,26 @@ public class Loops {
 //        for(int i = 100; i>0; i--){
 //            System.out.println(i);
 //        }  
- // while Loop
+       // while Loop
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int i = sc.nextInt();
-        while(i<100){
-            i++;
-            System.out.println(i);
+        
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a number: ");
+//        int i = sc.nextInt();
+//        while(i<100){
+//            i++;
+//            System.out.println(i);
+//        }
+    }
+}
+public static class math {
+     public static void main(String[] args) {
+            // loops.math
+
+             System.out.println((int)(Math.random() * 100));
+        }
         }
     
-    }
-    }
+    
 
 
