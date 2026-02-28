@@ -19,21 +19,35 @@ import java.util.Scanner;
 //              System.out.println(arr[i]);
 //    }
       //array of strings
-       String[] names = new String[5];
-       names[0] = "john";
-       names[1] = "doe";
-       names[2] = "jane";
-       names[3] = "smith";
-       names[4] = "johnson";
+//       String[] names = new String[5];
+//       names[0] = "john";
+//       names[1] = "doe";
+//       names[2] = "jane";
+//       names[3] = "smith";
+//       names[4] = "johnson";
 
    //Printing every Element 
-       for (int i = 0; i < names.length; i++) {
-             System.out.println(names[i]);
-               }
+//      for (int i = 0; i < names.length; i++) {
+//             System.out.println(names[i]);
+//               }
     //Printing Perticuler String of an index
-       System.out.println(names[1]);
-       System.out.println(names[4]);
- 
+//       System.out.println(names[1]);
+//       System.out.println(names[4]);
+
+
+     //Taking Input 
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the number of students: ");
+       int n = sc.nextInt();
+       int[] arry = new int[n];
+        for(int i = 0; i < n; i++) {
+                arry[i] = sc.nextInt();
+            }
+            for (int j= 0; j < n; j++) {
+                System.out.println(arry[j]);
+            }
+        
+
        
       }   
       }
