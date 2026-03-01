@@ -14,5 +14,6 @@ public class casting {
         int fP = p + (int)18.4;
         System.out.println(fP);
 
+  
     }
 }
