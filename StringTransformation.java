@@ -30,15 +30,15 @@ public class StringTransformation {
             
                 for (int i = 0; i < len; i++) {
                     if (S[i] > T[i]) {
-                        S[I] = T[i];
+                        S[i] = T[i];
                         System.out.println(new String(S));
                         changed = true;
-                        breack;
+                        break;
                     }
                 }
             
                 if (!changed) {
-                    for (int i = len; i >= 0; i--) {
+                    for (int i = len-1; i >= 0; i--) {
                         if (S[i] < T[i]) {
                             S[i] = T[i];
                             System.out.println(new String(S));
