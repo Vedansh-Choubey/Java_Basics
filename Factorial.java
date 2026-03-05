@@ -6,10 +6,10 @@ public class Factorial {
         if (n < 0) return -1;
 
         long result = 1;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 2; i <= n; i++) {
             result *= i;
         }
-        return 0;
+        return result;
     }
 
     public static void main(String[] args) {
@@ -18,13 +18,13 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        long ans = factorial(n)
+        long ans = factorial(n);
 
-        if (ans == -1)
-            System.out.println("Factorial not defined for negative numbers.")
-        else
+        if (ans == -1){
+            System.out.println("Factorial not defined for negative numbers.");
+    }else{
             System.out.println("Factorial of " + n + " is: " + ans);
-
+        }
         sc.close();
     }
 }
