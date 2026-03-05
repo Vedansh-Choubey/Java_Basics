@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//public class PalindromeString {
+public class PalindromeString {
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 //      scanner.close();
 //    }
-//}
+}
 
         //Checking Palindrome Number 
 
@@ -34,7 +34,7 @@ public class PalindromeNumberCheck {
             num /= 10;
         }
 
-        return original = reversed;
+        return original == reversed;
     }
 
     public static void main(String[] args) {
@@ -43,10 +43,12 @@ public class PalindromeNumberCheck {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        if (is_Palindrome(num))
-            System.out.println("Number is Palindrome.")
-        else
+        if (is_Palindrome(num)){
+            System.out.println("Number is Palindrome.");
+                        }
+        else{
             System.out.println("Number is NOT Palindrome.");
+        }
 
         sc.close();
     }
