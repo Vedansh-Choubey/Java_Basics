@@ -9,7 +9,7 @@ public class ArmstrongNumber {
         while (num != 0) {
             int digit = num % 10;
             sum += digit * digit * digit;
-            num / 10;
+            num /= 10;
         }
 
         return sum == original;
@@ -18,14 +18,14 @@ public class ArmstrongNumber {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.println ("Enter a number: ");
         int num = sc.nextInt();
 
-        if (isArmstrong(num))
+        if (isArmstrong(num)){
             System.out.println("Armstrong Number.");
-        else
+        } else{
             System.out.println("Not an Armstrong Number.");
-
+        }
         sc.close();
     }
 }
