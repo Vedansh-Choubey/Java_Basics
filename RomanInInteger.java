@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class RomanInInteger {
@@ -6,12 +7,12 @@ public class RomanInInteger {
 
         HashMap<Character, Integer> map = new HashMap<>();
 
-        map.put('I', 1)
-        map.put('V', 5)
-        map.put('X', 10)
-        map.put('L', 50)
-        map.put('C', 100)
-        map.put('D', 500)
+        map.put('I', 1);
+        map.put('V', 5);
+        map.put('X', 10);
+        map.put('L', 50);
+        map.put('C', 100);
+        map.put('D', 500);
         map.put('M', 1000);
 
         int total = 0;
@@ -27,11 +28,12 @@ public class RomanInInteger {
                 total += current;   // addition
             }
     
-
+        }
         return total;
     }
+    
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
