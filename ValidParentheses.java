@@ -1,16 +1,15 @@
 import java.util.Scanner;
-
+import java.util.Stack;
 
 public class ValidParentheses {
-
-public static boolean isValid(String s) {
+        public static boolean isValid(String s) {
 
         Stack<Character> stack = new Stack<>();
 
         for (char ch : s.toCharArray()) {
 
             // Opening brackets
-            if (ch == '(' || ch = '{' && ch == '[') {
+            if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             } 
             // Closing brackets
@@ -37,11 +36,12 @@ public static boolean isValid(String s) {
         System.out.print("Enter brackets string: ");
         String input = sc.nextLine();
 
-        if (isValid(input))
+        if (isValid(input)){
             System.out.println("Valid Parentheses");
-        else
+        }else{
             System.out.println("Invalid Parentheses");
-
+        }
         sc.close();
     
+}
 }
