@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LargestElement {
 
-     static int findLargest(int[] arr) {
+     public static int findLargest(int[] arr) {
         int max = arr[0];
 
         for (int num : arr) {
