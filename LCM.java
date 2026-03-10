@@ -19,7 +19,7 @@ public class LCM {
                 lcm += max;
             }
 
-            System.out.println ("LCM of + num1 + " and " + num2 + " is: " + lcm);
+            System.out.println ("LCM of " + num1 + " and " + num2 + " is: " + lcm);
         }
     }
 }
