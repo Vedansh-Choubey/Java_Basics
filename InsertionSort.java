@@ -13,7 +13,7 @@ public class InsertionSort {
             }
             arr[j + 1] = key;
             }
-
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
