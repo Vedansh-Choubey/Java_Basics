@@ -11,7 +11,7 @@ public class Fibonacci {
             System.out.print(a + " ");
             long next = a + b;
             a = b;
-            b =long next;
+            b = next;
         }
     }
 
