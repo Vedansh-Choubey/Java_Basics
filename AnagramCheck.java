@@ -20,7 +20,7 @@ public class AnagramCheck {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first string: ");
         String first = sc.nextLine();
