@@ -18,7 +18,7 @@ public class LinearSearch {
         int[] arr = new int[n];
 
         System.out.println("Enter elements:");
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
@@ -28,9 +28,9 @@ public class LinearSearch {
         int index = linearSearch(arr, target);
         if (index != -1) {
             System.out.println("Element is found at index: " + index);
-         else {
+        }else {
             System.out.println("Element is not found.");
-        
+        }
 
         sc.close();
     }
