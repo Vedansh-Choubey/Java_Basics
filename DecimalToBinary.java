@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class DecimalToBinary {
     public static String convertToBinary(int number) {
         if (number == 0) {
-            return "0";
+            return 0;
         }
 
         StringBuilder binary = new StringBuilder();
