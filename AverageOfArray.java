@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AverageOfArray {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Enter the number of elements: ");
+            System.out.println("Enter the number of elements: ");
             int n = scanner.nextInt();
 
             if (n <= 0) {
@@ -21,7 +21,7 @@ public class AverageOfArray {
             }
 
             double average = (double) sum / n;
-            System.out.printf("Average: %.2f%n", average);
+            System.out.println("Average: %.2f%n", average);
         }
     }
 }
