@@ -14,8 +14,8 @@ public class SimpleInterest {
 
             double simpleInterest = (principal * rate * time) / 100;
 
-            System.out.print("Simple Interest: " + simpleInterest);
-            System.out.print("Total Amount: " + (principal + simpleInterest));
+            System.out.println("Simple Interest: " + simpleInterest);
+            System.out.println("Total Amount: " + (principal + simpleInterest));
         }
     }
 }
