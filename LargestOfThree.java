@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class LargestOfThree {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in) {
+        try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter 1st Number: ");
-            int num1 = scanner.nextInt()
+            int num1 = scanner.nextInt();
 
             System.out.print("Enter 2nd Number: ");
-            int num2 = scanner.nextInt()
+            int num2 = scanner.nextInt();
 
             System.out.print("Enter 3rd Number: ");
-            int num3 = scanner.nextInt()
+            int num3 = scanner.nextInt();
 
             int largest = num1;
 
