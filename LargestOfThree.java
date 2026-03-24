@@ -22,7 +22,7 @@ public class LargestOfThree {
                 largest = num3;
             }
 
-            System.out.println("The largest Number is: " + largest);
+            System.out.println("The largest Number Is: " + largest);
         }
     }
 }
