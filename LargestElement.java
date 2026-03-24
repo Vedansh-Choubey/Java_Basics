@@ -10,7 +10,6 @@ public class LargestElement {
                 max = num;
             }
         }
-
         return max;
     }
 
@@ -18,19 +17,19 @@ public class LargestElement {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of elements: ");
+        System.out.print("Enter Number Of Elments: ");
         int n = sc.nextInt();
 
         int[] arr = new int[n];
 
-        System.out.println("Enter elements:");
+        System.out.println("Enter Elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
         int largest = findLargest(arr);
 
-        System.out.println("Largest element: " + largest);
+        System.out.println("Largest Element: " + largest);
 
         sc.close();
     }
