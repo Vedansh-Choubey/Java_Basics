@@ -22,4 +22,19 @@ class Student {
         System.out.println("ID: " + id + " | Name: " + name + " | Marks: " + marks);
     }
 }
+public class StudentManagement {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Student[] students = new Student[5];
 
+        int count = 0:
+
+        do {
+            System.out.println("\n1. Add Student");
+            System.out.println("2. Display Students");
+            System.out.println("3. Search Student");
+            System.out.println("4. Exit");
+            System.out.print("Enter choice: ");
+            choice = sc.nextInt();
+
+            
