@@ -60,7 +60,7 @@ public class StudentManagement {
                     boolean found = false;
 
                     for (int i = 0; i < count; i++) {
-                        if (students[i].id == searchid) {
+                        if (students[i].id == searchId) {
                             students[i].display();
                             found = true;
                         }
